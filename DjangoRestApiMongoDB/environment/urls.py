@@ -4,6 +4,11 @@ from environment import views
 from django.conf.urls.static import static
 from django.conf import settings
 
-urlpatterns = [
+"""urlpatterns = [
     url(r'^DjangoRestApiMongoDB/environment$', views.environmentApi),
+]"""
+
+
+urlpatterns = [
+    url(r'environment', views.tutorial_detail),
 ]
